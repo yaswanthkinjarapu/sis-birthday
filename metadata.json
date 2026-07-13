@@ -1,0 +1,6 @@
+{
+  "name": "Sister Birthday Surprise",
+  "description": "A magical, emotional, and interactive birthday surprise website dedicated to my dearest sister, featuring a memory gallery, horizontal timeline, animated gift box, secret letter, blowable cake, and fireworks finale.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
