@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Film, Play, Pause, Volume2, VolumeX, Sparkles } from 'lucide-react';
+import birthdayVideo from '../assets/images/Happy Birthday Sister.mp4';
 
 export const VideoSection: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -78,8 +79,9 @@ export const VideoSection: React.FC = () => {
         <div className="relative rounded-[22px] overflow-hidden aspect-video bg-slate-950 flex items-center justify-center z-10 shadow-inner">
           <video
             ref={videoRef}
-            src="https://assets.mixkit.co/videos/preview/mixkit-background-of-glowing-particles-and-lines-48350-large.mp4" // High quality, premium atmospheric video loop
+            src={birthdayVideo}
             loop
+            autoPlay
             muted={isMuted}
             playsInline
             className="w-full h-full object-cover opacity-80"

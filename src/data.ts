@@ -1,12 +1,20 @@
 import { MemoryPhoto, TimelineEvent, BirthdayWish } from './types';
+import photo1 from './assets/images/sri.jpg';
+import photo2 from './assets/images/sri1.jpg';
+import photo3 from './assets/images/sri2.jpg';
+import photo4 from './assets/images/sri5.jpg';
+import photo5 from './assets/images/sri6.jpg';
+import photo6 from './assets/images/sri9.jpg';
+import photo7 from './assets/images/sri10.jpg';
+import photo8 from './assets/images/sri11.jpg';
 
-// Curated beautiful Unsplash image URLs representing sibling memories, sisterhood, travel, childhood, and laughter
+// Local image files for the photo gallery memory items
 export const memoryPhotos: MemoryPhoto[] = [
   {
     id: 1,
     title: "A Walk in the Woods",
     description: "Posing with pure joy in the middle of a dense pine forest, breathing in the fresh air, feeling alive and free.",
-    imageUrl: "sri.jpg",
+    imageUrl: photo1,
     category: "Adventures",
     rotation: -4
   },
@@ -14,7 +22,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 2,
     title: "Festive Grace",
     description: "Adorned in beautiful traditional attire with exquisite golden jewelry, looking absolutely glowing and gorgeous.",
-    imageUrl: "sri1.jpg",
+    imageUrl: photo2,
     category: "Milestones",
     rotation: 3
   },
@@ -22,7 +30,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 3,
     title: "Dog Filter Fun",
     description: "Laughing so hard during our video call with goofy puppy filters. No distance can stop our crazy laughter!",
-    imageUrl: "sri2.jpg",
+    imageUrl: photo3,
     category: "Funny",
     rotation: -3
   },
@@ -30,7 +38,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 4,
     title: "Double Trouble Selfies",
     description: "Throwing up the peace sign and posing together at home. Forever my favorite partner-in-crime.",
-    imageUrl: "sri5.jpg",
+    imageUrl: photo4,
     category: "Best Friends",
     rotation: 5
   },
@@ -38,7 +46,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 5,
     title: "Raksha Bandhan Bonds",
     description: "Showing off the beautiful Rakhi tied around my wrist. A promise of protection, care, and unconditional love forever.",
-    imageUrl: "sri6.jpg",
+    imageUrl: photo5,
     category: "Childhood",
     rotation: -5
   },
@@ -46,7 +54,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 6,
     title: "Sunday Selfies",
     description: "A warm and sunny Sunday selfie. Just spending some sweet sibling quality time at home.",
-    imageUrl: "sri9.jpg",
+    imageUrl: photo6,
     category: "Best Friends",
     rotation: 4
   },
@@ -54,7 +62,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 7,
     title: "Just Sibling Vibes",
     description: "Smiling brightly side-by-side. The bond we share is irreplaceable and holds our happiest vibes.",
-    imageUrl: "sri10.jpg",
+    imageUrl: photo7,
     category: "Best Friends",
     rotation: -2
   },
@@ -62,7 +70,7 @@ export const memoryPhotos: MemoryPhoto[] = [
     id: 8,
     title: "Standing By You",
     description: "Through every storm and sunshine, I will always stand behind you, supporting you and watching you shine.",
-    imageUrl: "sri11.jpg",
+    imageUrl: photo8,
     category: "Milestones",
     rotation: 3
   }
