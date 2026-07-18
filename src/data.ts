@@ -9,6 +9,17 @@ import photo7 from './assets/images/sri10.jpg';
 import photo8 from './assets/images/sri11.jpg';
 import photo9 from './assets/images/srii23.jpeg';
 import photo10 from './assets/images/srii44.jpeg';
+import photo11 from './assets/images/srii24.jpeg';
+import photo12 from './assets/images/srii25.jpeg';
+import photo13 from './assets/images/srii26.jpeg';
+import photo14 from './assets/images/srii27.jpeg';
+import photo15 from './assets/images/srii28.jpeg';
+import photo16 from './assets/images/srii30.jpeg';
+import photo17 from './assets/images/srii31.jpg';
+import photo18 from './assets/images/srii32.jpeg';
+import photo19 from './assets/images/srii33.jpeg';
+import photo20 from './assets/images/srii34.jpeg';
+
 
 // Local image files for the photo gallery memory items
 export const memoryPhotos: MemoryPhoto[] = [
@@ -91,96 +102,85 @@ export const memoryPhotos: MemoryPhoto[] = [
     imageUrl: photo10,
     category: "Best Friends",
     rotation: -4
-  }
-];
-
-export const timelineEvents: TimelineEvent[] = [
-  {
-    year: "2012",
-    title: "🎒 First School Day Together",
-    story: "Remember walking hand-in-hand to school? You held my hand so tight, terrified of the big classrooms, but within minutes you were making friends and sharing crayons. I knew right then you'd conquer any room you ever walk into.",
-    imageUrl: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=80",
-    tag: "Childhood"
   },
   {
-    year: "2015",
-    title: "🚲 The Bicycle Conquest",
-    story: "After falling into the flowerbed four times, you stood up, dusted the leaves off your knees, refused my help, and pedaled all the way down the driveway. Your fierce independence has always been your superpower.",
-    imageUrl: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=600&auto=format&fit=crop&q=80",
-    tag: "Milestones"
+    id: 11,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo11,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    year: "2018",
-    title: "🏖️ Family Beach Vacation",
-    story: "The summer we buried Dad in sand up to his chin and got lost in a giant maze for two hours. We ate pink cotton candy and made a pact that we would travel the entire world together when we grow up.",
-    imageUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&auto=format&fit=crop&q=80",
-    tag: "Adventure"
+    id: 12,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo12,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    year: "2021",
-    title: "😂 Quarantine Baker Disasters",
-    story: "We decided to become master pastry chefs. We created a loaf of banana bread that could literally double as a brick, and we laughed so hard we couldn't breathe. Splattering flour all over the kitchen remains my favorite memory.",
-    imageUrl: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&auto=format&fit=crop&q=80",
-    tag: "Funny"
+    id: 13,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo13,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    year: "2024",
-    title: "💖 Best Siblings Road Trip",
-    story: "Our epic road trip across the state line! Blasting throwback Disney music, stopping at every scenic overlook, eating sketchy diner food, and realizing that no matter how much we grow up, we are still those goofy kids at heart.",
-    imageUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&auto=format&fit=crop&q=80",
-    tag: "Best Friends"
+    id: 14,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo14,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    year: "2026",
-    title: "✨ Celebrating Your Grace",
-    story: "Today you stand as an incredibly beautiful, smart, kind, and brilliant woman. I am the luckiest brother on earth to watch you blossom, and I promise to always stand by you, shield you, and celebrate your shining light.",
-    imageUrl: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&auto=format&fit=crop&q=80",
-    tag: "Birthday"
-  }
-  
-];
-
-export const birthdayWishes: BirthdayWish[] = [
-  {
-    id: 1,
-    message: "To my shining star, you bring endless warmth and joy to our entire family. May your path always be lit with blessings, laughter, and pure happiness! Love you sister!",
-    author: "Mom & Dad",
-    relation: "Parents",
-    color: "from-pink-400 to-rose-400"
+    id: 15,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo15,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    id: 2,
-    message: "Happy Birthday to my favorite partner-in-crime! Thanks for always covering up for me, sharing your fries, and being the best listener. Keep shining bright, Sis!",
-    author: "Brother Lucas",
-    relation: "Your Loving Brother",
-    color: "from-purple-400 to-indigo-400"
+    id: 16,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo16,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    id: 3,
-    message: "May this year bring you closer to all your beautiful dreams. You deserve everything pure and amazing in this world because of your golden heart. Cheers to a beautiful year!",
-    author: "Grandma & Grandpa",
-    relation: "Grandparents",
-    color: "from-amber-400 to-orange-400"
+    id: 17,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo17,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    id: 4,
-    message: "You are more than just a cousin, you are a sister of my heart. Thank you for the endless group chat memes, the wardrobe sharing, and the lifelong friendship. HBD!",
-    author: "Sarah",
-    relation: "Cousin",
-    color: "from-teal-400 to-emerald-400"
+    id: 18,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo18,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    id: 5,
-    message: "Happy Birthday to my absolute bestie! From kindergarten sandboxes to late night work rants, you've been my constant anchor. Let's celebrate your beautiful soul tonight!",
-    author: "Elena",
-    relation: "Best Friend",
-    color: "from-cyan-400 to-blue-400"
+    id: 19,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo19,
+    category: "Best Friends",
+    rotation: -4
   },
   {
-    id: 6,
-    message: "You inspire everyone around you with your work ethic, kindness, and brilliant sense of humor. Wishing you a year full of creative adventures and immense happiness!",
-    author: "Uncle David",
-    relation: "Uncle",
-    color: "from-fuchsia-400 to-pink-500"
+    id: 20,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo20,
+    category: "Best Friends",
+    rotation: -4
   }
 ];
