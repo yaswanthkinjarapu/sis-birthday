@@ -7,6 +7,8 @@ import photo5 from './assets/images/sri6.jpg';
 import photo6 from './assets/images/sri9.jpg';
 import photo7 from './assets/images/sri10.jpg';
 import photo8 from './assets/images/sri11.jpg';
+import photo9 from './assets/images/srii23.jpeg';
+import photo10 from './assets/images/srii44.jpeg';
 
 // Local image files for the photo gallery memory items
 export const memoryPhotos: MemoryPhoto[] = [
@@ -73,6 +75,22 @@ export const memoryPhotos: MemoryPhoto[] = [
     imageUrl: photo8,
     category: "Milestones",
     rotation: 3
+  },
+  {
+    id: 9,
+    title: "Sunday Selfies",
+    description: "A warm and sunny Sunday selfie. Just spending some sweet sibling quality time at home.",
+    imageUrl: photo9,
+    category: "Best Friends",
+    rotation: 4
+  },
+  {
+    id: 10,
+    title: "Laughing Together",
+    description: "Sharing jokes and laughter over coffee. These moments of joy are what make life beautiful.",
+    imageUrl: photo10,
+    category: "Best Friends",
+    rotation: -4
   }
 ];
 
@@ -119,6 +137,7 @@ export const timelineEvents: TimelineEvent[] = [
     imageUrl: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&auto=format&fit=crop&q=80",
     tag: "Birthday"
   }
+  
 ];
 
 export const birthdayWishes: BirthdayWish[] = [
