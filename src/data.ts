@@ -16,9 +16,9 @@ import photo14 from './assets/images/srii27.jpeg';
 import photo15 from './assets/images/srii28.jpeg';
 import photo16 from './assets/images/srii30.jpeg';
 import photo17 from './assets/images/srii31.jpg';
-import photo18 from './assets/images/srii32.jpeg';
-import photo19 from './assets/images/srii33.jpeg';
-import photo20 from './assets/images/srii34.jpeg';
+import photo18 from './assets/images/srii32.jpg';
+import photo19 from './assets/images/srii33.jpg';
+import photo20 from './assets/images/srii34.jpg';
 
 
 // Local image files for the photo gallery memory items
