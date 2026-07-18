@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Film, Play, Pause, Volume2, VolumeX, Sparkles } from 'lucide-react';
-import birthdayVideo from '../assets/images/Happy Birthday Sister.mp4';
+import birthdayVideo from '../assets/images/srriii.mp4';
 
 export const VideoSection: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
